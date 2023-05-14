@@ -1,4 +1,4 @@
-let x = document.getElementById('root');
+let x = document.getElementById("root");
 let count = 0;
 let s = document.getElementById('save');
 
@@ -14,5 +14,7 @@ function minusFunction() {
 }
 
 function save() {
-     s.innerText = s.innerText + ' ' + count + ' -';
+    s.textContent= s.textContent + count + ' - ';
+    x.innerText = 0;
+    count = 0;
 }
