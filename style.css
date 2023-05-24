@@ -34,7 +34,9 @@
 }
 
 body {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     background-color: var(--primary-cream);
     height: 100vh;
@@ -48,8 +50,6 @@ body {
     border-radius: 15px;
     background-color: #fff;
     margin: auto;
-    position: relative;
-    top: 100px;
 }
 
 .left-container {
