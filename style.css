@@ -1,0 +1,57 @@
+@font-face {
+    font-family: font;
+    src: url(./assets/font/Outfit-VariableFont_wght.ttf);
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --gray: hsl(212, 45%, 89%);
+    --grayish_blue: hsl(220, 15%, 55%);
+    --dark_blue: hsl(218, 44%, 22%);
+
+    --font_size: 15px;
+    --weight_one: 400;
+    --weight_one: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: font;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--gray);
+}
+
+.box {
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 260px;
+    background-image: url(./assets/images/image-qr-code.png);
+    background-size: cover;
+    border-radius: 10px;
+}
