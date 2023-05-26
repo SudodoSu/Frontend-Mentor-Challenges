@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/images/sudomaster.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="box">
+            <div class="star">
+                <img src="./assets/images/icon-star.svg" alt="Star icon">
+            </div>
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="ratings-box">
+                <ul>
+                    <li><a class="ratings one">1</a></li>
+                    <li><a class="ratings two">2</a></li>
+                    <li><a class="ratings three">3</a></li>
+                    <li><a class="ratings four">4</a></li>
+                    <li><a class="ratings five">5</a></li>
+                </ul>
+            </div>
+            <button onclick="submit()">SUBMIT</button>
+        </div>
+        <div class="box-2">
+            <img src="./assets/images/illustration-thank-you.svg" alt="Thank you image">
+            <p class="selection-paragraph">You selected </p>
+            <h1>Thank you!</h1>
+            <p class="box-2-description">We appriciate you taking the time to give rating. <br>
+            If you ever need more support, don't hesitate to<br> get in touch!</p>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
