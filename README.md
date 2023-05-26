@@ -1,6 +1,6 @@
 # QR Code Component
 
-[Live Site](#live-site)
+[Live Site](https://qr-code-component-theta-two.vercel.app/)
 
 ## Description
 
@@ -26,6 +26,6 @@ By utilizing this QR code component, developers can easily incorporate QR code f
 
 ## Live Site
 
-You can visit the live site of this QR code component [HERE](https://www.example.com) to see it in action.
+You can visit the live site of this QR code component [HERE](https://qr-code-component-theta-two.vercel.app/) to see it in action.
 
 ---
