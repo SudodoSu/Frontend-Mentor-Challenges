@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+
+--very_dark_blue: hsl(238, 29%, 16%);
+--soft_red: hsl(14, 88%, 65%);
+
+/* Gradient */
+
+/*Background gradient*/
+
+--Soft_violet: hsl(273, 75%, 66%);
+--Soft_blue: hsl(240, 73%, 65%);
+
+--Very_dark_grayish_blue: hsl(237, 12%, 33%);
+--Dark_grayish_blue: hsl(240, 6%, 50%);
+
+/*Dividers*/
+
+--Light_grayish_blue: hsl(240, 5%, 91%);
+
+--Font_size: 12px;
+
+--weight_one: 400;
+--weight_two: 700;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: Kumbh Sans;
+    overflow: hidden;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(var(--Soft_violet), var(--Soft_blue));
+}
+
+.box {
+    max-width: 1000px;
+    max-height: 500px;
+    display: flex;
+    background-color: #fff;
+    position: relative;
+    padding: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box-image {
+    position: relative;
+    left: -130px;
+    top: 370px;
+    z-index: 2;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,.2));
+}
+
+.left-box {
+    flex: 1 1;
+}
+
+.right-box {
+    flex: 1 1;
+}
+
+.pattern {
+    position: absolute;
+    top: -280px;
+    left: -580px;
+}
+
+.woman-image {
+    position: relative;
+    top: -10px;
+    left: -140px;
+}
+
+.right-title {
+    font-weight: var(--weight_two);
+}
+
+.padding-faq {
+    padding: 20px 0;
+    color: var(--Very_dark_grayish_blue);
+    font-weight: var(--weight_one);
+    cursor: pointer;
+}
+
+.padding-faq:hover {
+    color: var(--soft_red);
+}
+
+.arrow-down {
+    float: right;
+    margin-top: 8px;
+    transition: transform 1s;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--Light_grayish_blue);
+}
+
+.hidden-answer {
+    display: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: var(--Dark_grayish_blue);
+    animation: slide_right both 2s;
+}
+
+.display-block {
+    display: block;
+}
+
+@keyframes slide_right {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 100%;
+    }
+}
+
+@media (width: 375px) {
+    .box {
+        max-width: 80%;
+        flex-direction: column;
+    }
+    .pattern {
+        display: none;
+    }
+}
