@@ -22,6 +22,16 @@ let arrow = [
     document.querySelector(".arrow-five")
 ]
 
+let box_animation = document.querySelector(".box")
+let question_hover = document.querySelector(".padding-faq")
+
+question_hover.addEventListener('mouseover', () => {
+    box_animation.classList.add('animate')
+})
+question_hover.addEventListener('mouseout', () => {
+    box_animation.classList.remove('animate')
+})
+
 answers[0].classList.add("display-block")
 
 for (let i = 0; i < 5; i++) {

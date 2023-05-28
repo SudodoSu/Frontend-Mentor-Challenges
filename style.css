@@ -40,51 +40,57 @@ body {
 }
 
 main{
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 100%;
     background-image: linear-gradient(var(--Soft_violet), var(--Soft_blue));
 }
 
 .box {
     max-width: 1000px;
-    max-height: 500px;
+    height: 500px;
     display: flex;
     background-color: #fff;
-    position: relative;
-    padding: 50px;
     border-radius: 20px;
-    overflow: hidden;
+    position: relative;
 }
 
-.box-image {
-    position: relative;
-    left: -130px;
-    top: 370px;
-    z-index: 2;
+.box::before {
+    content: '';
+    background-image: url(./assets/images/illustration-box-desktop.svg);
+    width: 100px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    right: 0;
+    left: -40px;
+    bottom: -60px;
     filter: drop-shadow(0 2px 6px rgba(0,0,0,.2));
+    z-index: 10;
 }
 
 .left-box {
     flex: 1 1;
+    overflow: hidden;
 }
 
 .right-box {
     flex: 1 1;
+    padding: 50px;
 }
 
 .pattern {
-    position: absolute;
+    position: relative;
     top: -280px;
     left: -580px;
 }
 
 .woman-image {
     position: relative;
-    top: -10px;
-    left: -140px;
+    top: -900px;
+    left: -80px;
 }
 
 .right-title {
@@ -126,6 +132,10 @@ hr {
     display: block;
 }
 
+.box.animate::before {
+    animation: box_animation both 2s infinite;
+}
+
 @keyframes slide_right {
     from {
         transform: translateX(-100px);
@@ -137,12 +147,64 @@ hr {
     }
 }
 
-@media (width: 375px) {
-    .box {
-        max-width: 80%;
-        flex-direction: column;
+@keyframes box_animation {
+    0%, 100% {
+        transform: translateX(0px);
+        transform: translateY(0px);
     }
+    50% {
+        transform: translateX(-20px);
+        transform: translateY(-20px);
+    }
+}
+
+@media (max-width: 375px) {
+
+    body {
+        font-size: 14px;
+        overflow: visible;
+    }
+
+    .box {
+        display: grid;
+        max-width: 90%;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 130px 450px;
+    }
+
+    .left-box {
+        overflow: visible;
+    }
+
+    .right-box {
+        padding: 0 20px 50px 20px; 
+        position: relative;
+    }
+
     .pattern {
-        display: none;
+        position: relative;
+        top: -130px;
+        left: 50px;
+        width: 70%;
+    }
+    .woman-image {
+        position: absolute;
+        width: 70%;
+        top: -110px;
+        left: 50px;
+    }
+
+    .box::before {
+        position: absolute;
+        top: -48px;
+        left: 45px;
+        background-size: 100%;
+        height: 100px;
+    }
+
+    .right-title {
+        text-align: center;
+        font-size: 35px;
     }
 }
