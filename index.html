@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/images/sudomaster.ico" type="image/x-icon">
+    <title>Intro component with signup form</title>
+</head>
+<body>
+    <main>
+        <div class="left-box">
+            <div>
+                <h1 class="left-title">Learn to code by <br> watching others</h1>
+                <p class="left-description">See how expirienced developers solve problems in real-time. <br>
+                Watching scripted tutorials is great, but understanding how <br>
+                developers thisk is invaluable.</p>
+            </div>
+        </div>
+        <div class="right-box">
+            <p class="right-top-text">Try it free 7 days <span>then $20/mo. thereafter</span> </p>
+            <form action="" method="get" class="sign-up" id="signUpForm">
+                <label for="name">
+                    <input type="text" name="name" placeholder="First Name" id="name" required>
+                </label>
+                <label for="surname">
+                    <input type="text" name="surname" placeholder="Last Name" id="surname" required>
+                </label>
+                <label for="email">
+                    <input type="text" name="email" placeholder="Email" id="email" required>
+                </label>
+                <label for="password">
+                    <input type="text" name="password" placeholder="Password" id="password" required>
+                </label>
+                <button type="submit" class="submit-buton">CLAIM YOUR FREE TRIAL</button>
+                <p class="terms-services">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+            </form>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
