@@ -1,6 +1,8 @@
 ## Introduction:
 This project focuses on the development of a responsive sign-up form component that incorporates captivating animations. Designed to be easily integrated into existing websites or web applications, this description provides an overview of the objectives, key features, and potential benefits of the project.
 
+- [Live Website](https://intro-component-with-sign-up-form-livid.vercel.app/)
+
 ## Project Objectives:
 - Create a responsive sign-up form component that seamlessly adapts to different screen sizes and devices.
 - Design an intuitive and user-friendly interface that encourages visitors to complete the sign-up process.
@@ -25,7 +27,7 @@ This project focuses on the development of a responsive sign-up form component t
 ## Contact Information:
 For further inquiries or to discuss collaboration opportunities, please feel free to contact me at:
 
-- Email: [sudodosu99@gmail.com]
+- Email: [sudodosu99@gmail.com](sudodosu99@gmail.com)
 - Frontend Mentor [Link](https://www.frontendmentor.io/profile/SudodoSu)
-- Fiverr: [Link]((https://www.fiverr.com/gatox5?up_rollout=true)
+- Fiverr: [Link](https://www.fiverr.com/gatox5?up_rollout=true)
 - UpWork: [Link](https://www.upwork.com/freelancers/~017698f5d532009344)
