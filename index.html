@@ -20,20 +20,24 @@
         </div>
         <div class="right-box">
             <p class="right-top-text">Try it free 7 days <span>then $20/mo. thereafter</span> </p>
-            <form action="" method="get" class="sign-up" id="signUpForm">
+            <form action="" method="get" class="sign-up">
                 <label for="name">
-                    <input type="text" name="name" placeholder="First Name" id="name" required>
+                    <input type="text" name="name" placeholder="First Name" id="name" class="">
+                    <span class="error-mess">First Name cannot be empty</span>
                 </label>
                 <label for="surname">
-                    <input type="text" name="surname" placeholder="Last Name" id="surname" required>
+                    <input type="text" name="surname" placeholder="Last Name" id="surname" class="">
+                    <span class="error-mess">Last Name cannot be empty</span>
                 </label>
                 <label for="email">
-                    <input type="text" name="email" placeholder="Email" id="email" required>
+                    <input type="email" name="email" placeholder="Email" id="email" class="">
+                    <span class="error-mess">Email cannot be empty</span>
                 </label>
                 <label for="password">
-                    <input type="text" name="password" placeholder="Password" id="password" required>
+                    <input type="password" name="password" placeholder="Password" id="password" class="">
+                    <span class="error-mess">Password cannot be empty</span>
                 </label>
-                <button type="submit" class="submit-buton">CLAIM YOUR FREE TRIAL</button>
+                <button type="submit" class="submit-buton">CLAIM YOUR FREE TRAIL</button>
                 <p class="terms-services">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
             </form>
         </div>

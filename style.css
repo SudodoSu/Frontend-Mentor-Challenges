@@ -27,7 +27,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     height: 100vh;
     background-image: url(./assets/images/bg-intro-mobile.png);
 }
@@ -37,6 +36,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .right-box {
@@ -44,6 +45,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
+    position: relative;
 }
 
 button {
@@ -55,6 +58,18 @@ button {
     padding-top: 1em;
     padding-bottom: 1em;
     border-radius: .5em;
+    cursor: pointer;
+}
+
+.error-mess::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(./assets/images/icon-error.svg);
+    background-size: 100%;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
 }
 
 button:active {
@@ -67,15 +82,16 @@ input {
     border-radius: .5em;
 }
 
-
-input:active {
-    border-color: black;
+input:focus {
+    color: black;
 }
 
-input.invalid {
+.invalid-input {
     color: var(--red);
     border-color: var(--red);
 }
+
+
 
 label {
     border: none;
@@ -98,6 +114,7 @@ label {
     padding: 2rem;
     border-radius: 1em;
     gap: 1em;
+    position: relative;
 }
 
 .terms-services {
@@ -109,6 +126,7 @@ label {
 .sign-up input,
 button {
     width: 100%;
+    position: relative;
 }
 
 .terms-services span {
@@ -131,6 +149,13 @@ button {
 .right-top-text span {
     color: var(--grayish_blue);
     font-weight: 400;
+}
+
+.error-mess {
+    display: none;
+    float: right;
+    font-size: .8em;
+    color: var(--red);
 }
 
 @media (min-width: 1160px) {
