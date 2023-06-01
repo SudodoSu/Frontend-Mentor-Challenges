@@ -1,7 +1,7 @@
 ## Introduction:
 This project aims to develop a result summary component that effectively presents data in a clear and concise manner. By designing a visually appealing and user-friendly interface, this description provides an overview of the objectives, key features, and potential benefits of the project.
 
-- [Live Website](https://intro-component-with-sign-up-form-livid.vercel.app/)
+- [Live Website](https://result-summary-component-nu.vercel.app/)
 
 ## Project Objectives:
 - Create a result summary component that organizes and displays data in a visually appealing format.
