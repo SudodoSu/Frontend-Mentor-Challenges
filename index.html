@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="./assets/images/sudomaster.ico" type="image/x-icon">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <main>
+    <div class="box">
+      <form action="" type="get">
+        <label class="days" for="day">
+          <span class="err">DAY</span>
+          <input type="text" placeholder="DD" id="day" maxlength="2">
+          <span class="err-hidden">This field is reqiured</span>
+        </label>
+        <label class="months" for="month">
+          <span class="err">MONTH</span>
+          <input type="text" placeholder="MM" id="month" maxlength="2">
+          <span class="err-hidden">This field is reqiured</span>
+        </label>
+        <label class="years" for="year">
+          <span class="err">YEAR</span>
+          <input type="text" placeholder="YYYY" id="year" maxlength="4">
+          <span class="err-hidden">This field is reqiured</span>
+        </label>
+        <hr>
+        <button type="submit"><img src="./assets/images/icon-arrow.svg" alt="Arrow submit button image"></button>
+      </form>
+      <ul>
+        <li><span id="end-value-years">- -</span>years</li>
+        <li><span id="end-value-months">- -</span>months</li>
+        <li><span id="end-value-days">- -</span>days</li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </main>
+</body>
+</html>
