@@ -2,6 +2,8 @@
 
 Welcome to the Age Calculator App! This project is my submission for the Frontend Mentor challenge, where I built a powerful and user-friendly app to simplify age calculations. It allowed me to enhance my frontend development skills and apply my knowledge of HTML, CSS, and JavaScript.
 
+- [Live link](https://age-calculator-two-pi.vercel.app/)
+
 ## How to Use
 
 Using the Age Calculator App is straightforward:
