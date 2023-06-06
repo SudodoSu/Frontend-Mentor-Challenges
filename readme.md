@@ -1,5 +1,7 @@
 ## FAQ Accordion Card Challenge - Completed with Animations and Mobile Responsiveness
 
+[Live link](https://faq-accordion-card-six-ecru.vercel.app/)
+
 ### Challenge Overview:
 I successfully completed the FAQ Accordion Card challenge from Frontend Mentor, incorporating engaging animations and ensuring mobile responsiveness. This challenge required creating an interactive FAQ section using HTML, CSS, and JavaScript, where users can click on individual questions to reveal their corresponding answers.
 
