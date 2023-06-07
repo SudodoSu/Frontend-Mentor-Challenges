@@ -29,3 +29,8 @@ By utilizing this QR code component, developers can easily incorporate QR code f
 You can visit the live site of this QR code component [HERE](https://qr-code-component-theta-two.vercel.app/) to see it in action.
 
 ---
+
+- Email: [sudodosu99@gmail.com](sudodosu99@gmail.com)
+- Frontend Mentor [Link](https://www.frontendmentor.io/profile/SudodoSu)
+- Fiverr: [Link](https://www.fiverr.com/gatox5?up_rollout=true)
+- UpWork: [Link](https://www.upwork.com/freelancers/~017698f5d532009344)
