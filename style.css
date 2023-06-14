@@ -1,0 +1,154 @@
+@font-face {
+    font-family: font;
+    src: url(./assets/font/Overpass-VariableFont_wght.ttf);
+}
+
+:root {
+    --primary_orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light_gray: hsl(217, 12%, 63%);
+    --medium_gray: hsl(216, 12%, 54%);
+    --dark_blue: hsl(213, 19%, 18%);
+    --vey_dark_blue: hsl(216, 12%, 8%);
+
+    --font_size: 15px;
+
+    --weight_one: 400;
+    --weight_two: 700;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: auto;
+    background-color: var(--vey_dark_blue);
+    color: aliceblue;
+    font-family: font;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    max-width: 450px;
+    background-color: var(--dark_blue);
+    padding: 2rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-2 {
+    max-width: 450px;
+    background-color: var(--dark_blue);
+    padding: 2rem;
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2-description {
+    text-align: center;
+}
+
+.selection-paragraph {
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: var(--primary_orange);
+    background-color: hsl(216, 12%, 54%, 0.1);
+}
+
+ul {
+    list-style: none;
+}
+
+.star {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(216, 12%, 54%, 0.1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-weight: var(--weight_two);
+}
+
+p {
+    color: var(--light_gray);
+    margin-top: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: hsl(216, 12%, 54%, 0.1);
+    color: var(--light_gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: var(--primary_orange);
+    color: var(--white);
+}
+
+.a-toggle {
+    background-color: var(--light_gray);
+    color: var(--white);
+}
+
+button {
+    padding: 1rem 0;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primary_orange);
+    color: var(--white);
+    font-size: var(--font_size);
+    font-weight: var(--weight_two);
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--white);
+    color: var(--primary_orange);
+}
