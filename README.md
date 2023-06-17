@@ -48,7 +48,7 @@ Here is a list of the challenges available in this repository:
 
 1. Challenge 1 - [Product preview](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/Product-preview)
    - [Live Demo](https://product-preview-ruby.vercel.app/)
-   - [Source Code]([link-to-source-code](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/Product-preview))
+   - [Source Code](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/Product-preview)
 
 2. Challenge 2 - [Result summary component](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/Result-Summary-Component)
    - [Live Demo](l(https://result-summary-component-nu.vercel.app/)
@@ -107,4 +107,4 @@ Please don't hesitate to get in touch. I look forward to hearing from you!
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the code and solutions provided here for personal and educational purposes.
+This repository is licensed under the MIT License. Feel free to use the code and solutions provided here for personal and educational purposes.
