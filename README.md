@@ -51,7 +51,7 @@ Here is a list of the challenges available in this repository:
    - [Source Code](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/Product-preview)
 
 2. Challenge 2 - [Result summary component](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/Result-Summary-Component)
-   - [Live Demo](l(https://result-summary-component-nu.vercel.app/)
+   - [Live Demo](https://result-summary-component-nu.vercel.app/)
    - [Source Code](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/Result-Summary-Component)
 
 3. Challenge 3 - [QR code component](https://github.com/SudodoSu/Frontend-Mentor-Challenges/tree/main/QR-code-component)
