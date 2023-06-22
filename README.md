@@ -96,7 +96,7 @@ If you have any questions or inquiries regarding this repository or any specific
 
 Additionally, if you have any project development ideas or collaborations in mind, I am open and available to discuss them further. I am always eager to work with other passionate individuals and contribute to exciting web development projects.
 
-You can contact me through the following channels:
+Contact me through the following channels:
 
 - Email: [sudodosu99@gmail.com](sudodosu99@gmail.com)
 - Frontend Mentor [Link](https://www.frontendmentor.io/profile/SudodoSu)
